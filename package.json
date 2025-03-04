@@ -1,39 +1,22 @@
 {
-  "license": "0BSD",
-  "main": "index.ts",
+  "name": "zoopi-helpdesk",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-web": "0.19.9",
+    "expo": "^52.0.0",
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-picker/picker": "2.4.10",
+    "expo-linear-gradient": "~12.3.0"
+  },
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "build": "expo export:web",
     "web": "expo start --web"
   },
-  "dependencies": {
-    "expo": "~52.0.37",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-native": "0.76.7",
-    "expo-linear-gradient": "latest",
-    "lucide-react-native": "latest",
-    "react-native-safe-area-context": "latest",
-    "react-native-gesture-handler": "latest",
-    "@react-native-community/slider": "latest",
-    "expo-camera": "latest",
-    "@react-navigation/native": "latest",
-    "@react-navigation/native-stack": "latest",
-    "@react-navigation/bottom-tabs": "latest",
-    "react-native-svg": "latest",
-    "@react-native-async-storage/async-storage": "latest",
-    "@supabase/supabase-js": "latest",
-    "sonner-native": "latest",
-    "react-native-screens": "latest",
-    "react-native-reanimated": "^3.10.1",
-    "@react-native-picker/picker": "latest",
-    "@expo/vector-icons": "latest"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@types/react": "~18.3.12",
-    "typescript": "^5.3.3"
-  },
-  "private": true
+  "engines": {
+    "node": ">=16"
+  }
 }
